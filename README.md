@@ -1,30 +1,29 @@
 # 🧠 Memory Matrix
 
-Jogo de memorização baseado em grid. Memorize as células destacadas e clique nas posições corretas!
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-61DAFB?logo=react&style=flat-square">
+  <img src="https://img.shields.io/badge/license-MIT-22c55e?style=flat-square">
+  <a href="https://samuelmedeiros.vercel.app/#games"><img src="https://img.shields.io/badge/Jogue_no_Portfólio-06b6d4?style=flat-square"></a>
+</p>
 
-## Como jogar
+Jogo de memorização baseado em grid. Memorize as células destacadas e recrie o padrão!
 
-1. **Memorize** — Um grid aparece com algumas células destacadas. Memorize as posições.
-2. **Selecione** — Após alguns segundos, as células são ocultadas e você deve clicar nas que estavam destacadas.
-3. **Avance** — Acertando todas, você avança de nível. Errando demais, o jogo acaba.
+## Como Jogar
+1. **Memorize** o grid com células destacadas
+2. **Selecione** as posições corretas
+3. **Avance** de nível acertando todas
 
-## Características
-
-- Grid progressivo: 3×3 → 4×4 → 5×5
-- Níveis com dificuldade crescente (menos tempo para memorizar)
-- Score e high score
-- Interface responsiva
+Grid progressivo: 3×3 → 4×4 → 5×5
 
 ## Stack
+- React 18 (CDN) · Babel Standalone · CSS puro
 
-- **React 18** via CDN (UMD)
-- **Babel Standalone** para JSX no navegador
-- CSS puro — sem dependências
+## Executar
+```bash
+git clone git@github.com:Samuelfmedeiros/memory-matrix.git
+cd memory-matrix
+open index.html
+```
 
-## Como usar
-
-Abra o `index.html` em qualquer navegador moderno. Nada precisa ser instalado.
-
-## Autor
-
-Samuel F. Medeiros
+## Licença
+MIT
